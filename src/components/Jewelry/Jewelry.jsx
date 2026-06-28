@@ -162,7 +162,7 @@ export default function Jewelry({ category }) {
                   </p>
 
                   <p className="dark:text-white text-sm">
-                    المصنعية: {item.workmanship.toLocaleString()}
+                    المصنعية والضريبة: {item.workmanship.toLocaleString()}
                   </p>
                 </div>
 

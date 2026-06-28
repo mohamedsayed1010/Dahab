@@ -4,7 +4,7 @@ export const getUsers = async () => {
   const token = localStorage.getItem("tkn");
 
   const { data } = await axios.get(
-    "https://dahbelarby.com/api/auth/users",
+    "https://api.dahbelarby.com/api/auth/users",
     {
       headers: {
         Authorization: `Bearer ${token}`,

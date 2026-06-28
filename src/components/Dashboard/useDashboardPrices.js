@@ -13,7 +13,7 @@ export default function useDashboardPrices(token) {
     onSubmit: async (values) => {
       try {
         await axios.post(
-          "https://dahbelarby.com/api/gold-prices",
+          "https://api.dahbelarby.com/api/gold-prices",
           values,
           {
             headers: { Authorization: `Bearer ${token}` },
@@ -38,7 +38,7 @@ export default function useDashboardPrices(token) {
     onSubmit: async (values) => {
       try {
         await axios.post(
-          "https://dahbelarby.com/api/silver-prices",
+          "https://api.dahbelarby.com/api/silver-prices",
           values,
           {
             headers: { Authorization: `Bearer ${token}` },

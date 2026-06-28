@@ -18,7 +18,7 @@ export const updateProduct = async ({ id, values, token }) => {
   }
 
   const { data } = await axios.put(
-    `https://dahbelarby.com/api/products/${id}`,
+    `https://api.dahbelarby.com/api/products/${id}`,
     formData,
     {
       headers: {

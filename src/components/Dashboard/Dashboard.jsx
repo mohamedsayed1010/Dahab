@@ -58,7 +58,7 @@ export default function Dashboard() {
         <div className="bg-card border border-border p-6 rounded-xl">
 
           <h2 className="text-2xl font-bold mb-4 text-gray-300">
-            أسعار الفضة (عيار 1000)
+            أسعار الفضة (عيار 999)
           </h2>
 
           <form onSubmit={silverFormik.handleSubmit} className="space-y-4">

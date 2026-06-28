@@ -18,7 +18,7 @@ const SilverPrices = () => {
 
     return [
       {
-        karat: "1000",
+        karat: "999",
         sell: silver.silver1000Sell,
         buy: silver.silver1000Buy,
       },

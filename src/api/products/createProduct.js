@@ -18,7 +18,7 @@ export const createProduct = async ({ values, token }) => {
   }
 
   const { data } = await axios.post(
-    "https://dahbelarby.com/api/products",
+    "https://api.dahbelarby.com/api/products",
     formData,
     {
       headers: {

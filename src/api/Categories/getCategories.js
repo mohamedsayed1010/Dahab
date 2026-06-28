@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const getCategories = async (token) => {
   const { data } = await axios.get(
-    "https://dahbelarby.com/api/categories",
+    "https://api.dahbelarby.com/api/categories",
     {
       headers: {
         Authorization: `Bearer ${token}`,

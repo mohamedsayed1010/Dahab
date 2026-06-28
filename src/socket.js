@@ -1,7 +1,8 @@
 import { io } from "socket.io-client";
 
-const socket = io("https://goldapp-production-99bf.up.railway.app", {
+const socket = io("https://api.dahbelarby.com", {
   transports: ["websocket"],
 });
 
 export default socket;
+

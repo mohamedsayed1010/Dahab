@@ -142,7 +142,7 @@ setIsLoading(true);
   };
 
   const { data } = await axios.post(
-    "https://dahbelarby.com/api/auth/signin",
+    "https://api.dahbelarby.com/api/auth/signin",
     formattedValues
   );
 
@@ -192,7 +192,7 @@ try {
     localStorage.getItem("pendingToken");
 
   const { data } = await axios.post(
-    "https://dahbelarby.com/api/telegram/verify-code",
+    "https://api.dahbelarby.com/api/telegram/verify-code",
     {
       phone: normalizePhone(phone),
       code,
