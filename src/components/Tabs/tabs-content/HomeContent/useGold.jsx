@@ -6,7 +6,7 @@ import { getGoldPrices } from "../../../../api/gold/goldPrices";
 import { useGoldPrice } from "../../../../context/GoldPriceContext";
 
 export function useGold() {
-  // ================= GOLD SOCKET CONTEXT =================
+// ================= GOLD PRICE CONTEXT =================
   const { ouncePrice } = useGoldPrice();
 
   // ================= USD =================
